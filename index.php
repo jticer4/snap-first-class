@@ -23,6 +23,7 @@ class car {
 }
 
 $bmw = new car;
+echo "A bmw has " . $bmw->numberOfTires . " tires. <br>";
 $bmw->isExpensive = 'true';
-echo "is a bmw expensive? " . $bmw->isExpensive;
+echo "A bmw is expensive " . $bmw->isExpensive;
 
