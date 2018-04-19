@@ -4,35 +4,21 @@ class car {
 	public $numberOfTires = 4;
 	public $isExpensive = false;
 
-	/**
-	 * @return int
-	 */
 	public function getNumberOfTires(): int {
 		return $this->numberOfTires;
 	}
 
-	/**
-	 * @return bool
-	 */
 	public function isExpensive(): bool {
 		return $this->isExpensive;
 	}
 
-	/**
-	 * @param int $numberOfTires
-	 */
-	public function setNumberOfTires(int $numberOfTires) {
+	public function setNumberOfTires(int $numberOfTires): void {
 		$this->numberOfTires = $numberOfTires;
 	}
 
-	/**
-	 * @param bool $isExpensive
-	 */
-	public function setIsExpensive(bool $isExpensive) {
+	public function setIsExpensive(bool $isExpensive): void {
 		$this->isExpensive = $isExpensive;
 	}
-
-
 
 }
 
