@@ -1,7 +1,7 @@
 <?php
 
 class car {
-	public $numberOfTires = 4;
+	protected $numberOfTires = 4;
 	public $isExpensive = false;
 
 	public function getNumberOfTires(): int {
@@ -23,7 +23,7 @@ class car {
 }
 
 $bmw = new car;
-echo "A bmw has " . $bmw->numberOfTires . " tires. <br>";
+echo "A bmw has " . $bmw->getNumberOfTires() . " tires. <br>";
 $bmw->isExpensive = 'true';
 echo "A bmw is expensive " . $bmw->isExpensive;
 
