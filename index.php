@@ -21,9 +21,12 @@ class car {
 	}
 
 }
-
+/* creates a new instance of the car class called bmw*/
 $bmw = new car;
+/* prints out the number of tires on the car */
 echo "A bmw has " . $bmw->getNumberOfTires() . " tires. <br>";
+/* changes the bool isExpensive from false to true*/
 $bmw->isExpensive = 'true';
-echo "A bmw is expensive " . $bmw->isExpensive;
+/*prints out the answer to "is the bmw expensive?" */
+echo "A bmw is expensive? " . $bmw->isExpensive;
 
