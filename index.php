@@ -38,5 +38,5 @@ class car {
 
 $bmw = new car;
 $bmw->isExpensive = 'true';
-echo $bmw->isExpensive;
+echo "is a bmw expensive? " . $bmw->isExpensive;
 
